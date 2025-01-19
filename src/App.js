@@ -9,7 +9,7 @@ import LandingPage from './components/LandingPage';
 const App = () => {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/Movie-WatchList-Application">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/movies" element={<MovieList />} />
@@ -22,6 +22,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
