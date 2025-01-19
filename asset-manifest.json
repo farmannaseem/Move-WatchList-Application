@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/farmannaseem/Move-WatchList-Application/static/css/main.c3ddb0c8.css",
+    "main.js": "/farmannaseem/Move-WatchList-Application/static/js/main.b506435e.js",
+    "index.html": "/farmannaseem/Move-WatchList-Application/index.html",
+    "main.c3ddb0c8.css.map": "/farmannaseem/Move-WatchList-Application/static/css/main.c3ddb0c8.css.map",
+    "main.b506435e.js.map": "/farmannaseem/Move-WatchList-Application/static/js/main.b506435e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ddb0c8.css",
+    "static/js/main.b506435e.js"
+  ]
+}
