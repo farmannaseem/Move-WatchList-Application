@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/farmannaseem/Move-WatchList-Application/static/css/main.c3ddb0c8.css",
-    "main.js": "/farmannaseem/Move-WatchList-Application/static/js/main.734079c4.js",
-    "index.html": "/farmannaseem/Move-WatchList-Application/index.html",
-    "main.c3ddb0c8.css.map": "/farmannaseem/Move-WatchList-Application/static/css/main.c3ddb0c8.css.map",
-    "main.734079c4.js.map": "/farmannaseem/Move-WatchList-Application/static/js/main.734079c4.js.map"
+    "main.css": "/Move-WatchList-Application/static/css/main.c3ddb0c8.css",
+    "main.js": "/Move-WatchList-Application/static/js/main.0d717e80.js",
+    "index.html": "/Move-WatchList-Application/index.html",
+    "main.c3ddb0c8.css.map": "/Move-WatchList-Application/static/css/main.c3ddb0c8.css.map",
+    "main.0d717e80.js.map": "/Move-WatchList-Application/static/js/main.0d717e80.js.map"
   },
   "entrypoints": [
     "static/css/main.c3ddb0c8.css",
-    "static/js/main.734079c4.js"
+    "static/js/main.0d717e80.js"
   ]
 }
