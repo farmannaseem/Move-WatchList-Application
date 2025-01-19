@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { fetchMoviesAPI } from './movieAPI';
 
-// Async thunk action to fetch movies
 export const fetchMovies = createAsyncThunk('movies/fetchMovies', async () => {
   const response = await fetchMoviesAPI(); // Implement fetchMoviesAPI function
   return response.data; // Adjust data extraction based on your API response structure

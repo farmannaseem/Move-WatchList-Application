@@ -24,26 +24,31 @@ const MovieSearch = () => {
       title: movie.Title,
       description: movie.Plot,
       releaseYear: movie.Year,
-      genre: movie.Genre
+      genre: movie.Genre,
     };
     dispatch(movieAdded(newMovie));
   };
 
   return (
     <div className="movie-search-container">
-      <input
-        type="text"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search for a movie"
-        className="movie-search-input"
-      />
-      <button onClick={searchMovies} className="movie-search-button">Search</button>
+      <h2 className="movie-search-title">Search for Your Favorite Movies</h2>
+      <div className="movie-search-bar">
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search for a movie"
+          className="movie-search-input"
+        />
+        <button onClick={searchMovies} className="movie-search-button">Search</button>
+      </div>
       <div className="movie-search-results">
         {results.map((movie) => (
           <div key={movie.imdbID} className="movie-search-result-item">
-            <span>{movie.Title} ({movie.Year})</span>
-            <button onClick={() => addMovie(movie)}>Add to Watchlist</button>
+            <div className="movie-info">
+              <span className="movie-title">{movie.Title} ({movie.Year})</span>
+            </div>
+            <button onClick={() => addMovie(movie)} className="add-movie-button">Add to Watchlist</button>
           </div>
         ))}
       </div>
